@@ -10,7 +10,7 @@ const Navbar = () => {
   useEffect(()=>{
 	  (async function () {
 		const cal = await getCalApi();
-		cal("ui", {"styles":{"branding":{"brandColor":"#fff"}},"hideEventTypeDetails":false,"layout":"month_view"});
+		cal("ui", {"theme":"light","styles":{"branding":{"brandColor":"#000"}},"hideEventTypeDetails":false,"layout":"month_view"});
 	  })();
 	}, [])
 
