@@ -3,19 +3,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import Button from "./ui/button";
+
+import { getCalApi } from "@calcom/embed-react";
 
 const Navbar = () => {
-  const [isMenuOpen, setMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setMenuOpen(!isMenuOpen);
-  };
-
-  useEffect(() => {
-    // Close the menu by default on screens above md
-    setMenuOpen(false);
-  }, []);
+  useEffect(()=>{
+	  (async function () {
+		const cal = await getCalApi();
+		cal("ui", {"styles":{"branding":{"brandColor":"#fff"}},"hideEventTypeDetails":false,"layout":"month_view"});
+	  })();
+	}, [])
 
   return (
     <nav className="bg-[#ffffffef] sticky top-0 left-0 border-b border-gray-200 z-[100]">
@@ -33,7 +30,12 @@ const Navbar = () => {
             
             
             <li>
-              <Button href={'/contact-me'}>CONTACT</Button>
+            <button data-cal-namespace=""
+	  data-cal-link={process.env.NEXT_PUBLIC_DATE_CAL_LINK}
+    
+	  data-cal-config='{"layout":"month_view"}'
+    className='flex justify-center w-max items-center py-3 px-4 md:px-6 rounded-full bg-button text-[#F4F7FA] text-sm md:text-base font-[700]'
+	  >CONTACT</button>
             </li>
           </ul>
         </div>
