@@ -15,13 +15,13 @@ const Navbar = () => {
 	}, [])
 
   return (
-    <nav className="bg-[#ffffffef] sticky top-0 left-0 border-b border-gray-200 z-[100]">
-      <div className="max-w-screen-xl  flex items-center justify-between mx-auto p-2 md:p-4">
+    <nav className="bg-[#ffffffef] sticky top-0 left-0 p-2 z-[100]">
+      <div className="max-w-screen-xl  flex items-center justify-between mx-auto ">
         <Link
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <Image src="/assets/logo.png" width={60} height={60} alt="logo"/>
+          <Image src="/logo.png" width={120} height={100} alt="logo"/>
         </Link>
         
         
