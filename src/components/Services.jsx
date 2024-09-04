@@ -33,23 +33,7 @@ const Services = () => {
     'Icons',
   ];
   return (
-    // <div className="mt-16 md:mt-5 w-full min-h-[90vh]">
-    //   <div className="my-10 px-10  flex flex-col  justify-between h-full items-center text-white max-w-screen-xl mx-auto">
-    //     <div className="flex flex-col justify-center items-center">
-    //       {/* <h1 className="text-3xl md:text-4xl lg:text-5xl font-[700] text-[#FFF]">Services</h1>
-    //        */}
-    //        <SparklesPreview>Services</SparklesPreview>
-    //     </div>
-        
-    //     <div className="mt-20 flex justify-center items-center gap-10 flex-wrap w-full">
-    //       {services.map((service, index) => (
-    //         <React.Fragment key={index}>
-    //           <Service {...service} />
-    //         </React.Fragment>
-    //       ))}
-    //     </div>
-    //   </div>
-    // </div>
+    
     <section className='w-full py-[60px]'>
       <main className='mx-auto max-w-[80rem]'>
         <h1 className='leading-normal md:text-[50px] text-[2rem] text-[#323232] font-[700] text-center py-16'>

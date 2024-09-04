@@ -1,43 +1,30 @@
 
-import Link from "next/link";
+
 import React from "react";
-import Button from "./ui/button";
-import { HeroParallax } from "./ui/connect-parallax";
-import { products } from "@/lib/utils";
+
+import Image from "next/image";
 
 
 const Hero = () => {
   return (
-    // <div
-    //   className=" w-full h-[90vh] bg-cover bg-center bg-no-repeat"
-    //   // style={{ backgroundImage: "url('/assets/hero.png')" }}
-    // >
-    //   <div
-    //     className="w-full h-full "
-    //     // style={{ backgroundColor: "rgba(0,0,0,0.8)" }}
-    //   >
-    //     <div className="flex flex-col gap-5 justify-center h-full items-center text-white max-w-screen-xl mx-auto">
-    //       <h1 className="text-4xl md:text-6xl text-center  font-[700] heading w-[80%]">
-    //         Innovative WEB Solutions for a Connected World
-    //       </h1>
-    //       <p className="font-[500] text-base text-[#FFFFFF] text-center w-[70%]">
-    //         Muzammil Hussain, a dedicated MERN stack developer, expertly
-    //         engineers dynamic web applications with proficiency across MongoDB,
-    //         Express.js, React, and Node.js, ensuring robust functionality and
-    //         user-centric experiences
-    //       </p>
-    //       {/* <Link href={"#work"}>
-    //         <button className="flex justify-center items-center py-3 px-6 rounded-full bg-indigo-500 hover:bg-indigo-600 text-[#F4F7FA] text-sm">
-    //           Explore works
-    //         </button>
-    //       </Link> */}
-    //       <Button href={"#work"}>Explore works </Button>
-    //     </div>
-    //   </div>
-    // </div>
-    <section>
-        <HeroParallax products={products}></HeroParallax>
-      </section>
+    
+        <div className="max-w-7xl relative min-h-screen mx-auto py-20 flex justify-start items-center md:py-20 px-4 w-full  left-0 top-0">
+          <div className="flex justify-between items-center gap-10">
+
+          <div className="flex flex-col ">
+
+          <h1 className="text-2xl md:text-7xl font-bold  heading">
+            The Ultimate <br /> development studio
+          </h1>
+          <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
+            We build beautiful products with the latest technologies and frameworks.
+            We are a team of passionate developers and designers that love to build
+            amazing products.
+          </p>
+          </div>
+          <Image src='/public/hero.jpg'  alt="img" height={500} width={500}/>
+          </div>
+        </div>
   );
 };
 

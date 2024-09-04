@@ -19,9 +19,12 @@ const Navbar = () => {
       <div className="max-w-screen-xl  flex items-center justify-between mx-auto ">
         <Link
           href="/"
-          className="flex items-center space-x-3 rtl:space-x-reverse"
+          
         >
-          <Image src="/logo.png" width={120} height={100} alt="logo"/>
+          <span className="text-xl heading font-extrabold md:text-3xl font-sans">
+            Muzammil Hussain
+          </span>
+          
         </Link>
         
         
