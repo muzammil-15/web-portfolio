@@ -37,7 +37,7 @@ const Navbar = () => {
 	  data-cal-link={process.env.NEXT_PUBLIC_DATE_CAL_LINK}
     
 	  data-cal-config='{"layout":"month_view"}'
-    className='flex justify-center w-max items-center py-3 px-4 md:px-6 rounded-full bg-button text-[#F4F7FA] text-sm md:text-base font-[700]'
+    className='flex justify-center w-max items-center py-2 md:py-3 px-3 md:px-6 rounded-full bg-button text-[#F4F7FA] text-[12px] md:text-base font-[700]'
 	  >CONTACT</button>
             </li>
           </ul>
