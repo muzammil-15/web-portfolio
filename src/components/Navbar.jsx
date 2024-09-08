@@ -21,9 +21,9 @@ const Navbar = () => {
           href="/"
           
         >
-          <span className="text-xl heading font-extrabold md:text-3xl font-sans">
-            Muzammil Hussain
-          </span>
+          <h2 className="text-xl text-[#323232] font-extrabold md:text-3xl font-sans">
+            Muzammil <span className="heading"> Hussain</span>
+          </h2>
           
         </Link>
         

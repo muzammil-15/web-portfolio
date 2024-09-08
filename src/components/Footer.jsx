@@ -12,15 +12,14 @@ const Footer = () => {
             As a web developer, I&apos;m here to discuss your project, improve your online presence, or refine your UI/UX design. Let&apos;s connect and create digital success.
           </p>
           <div className="flex justify-center gap-5 md:gap-10 items-center w-full">
-            <Link href="https://twitter.com/kashan48207" target="_blank">
-                <Image src={"/assets/t.png"} width={50} height={50} alt="tweeter"/>
-            </Link>
+            
             <Link href="https://www.linkedin.com/in/muzammil-hussain-a72187262/" target="_blank">
                 <Image src={"/assets/l.png"} width={50} height={50} alt="linkedin"/>
             </Link>
-            <Link href="https://dribbble.com2" target="_blank">
-                <Image src={"/assets/d.png"} width={50} height={50} alt="dribble"/>
+            <Link href="https://www.github.com/muzammil-15" target="_blank" className="opacity-50">
+                <Image src={"/assets/git.png"} width={50} height={50} alt="linkedin" className="rounded-full"/>
             </Link>
+            
             <Link href="https://wa.link" target="_blank">
                 <Image src={"/assets/w.png"} width={50} height={50} alt="whatsapp"/>
             </Link>
