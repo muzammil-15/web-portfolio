@@ -6,6 +6,7 @@ import Projects from "@/components/Projects";
 import Services from "@/components/Services";
 import Testimonial from "@/components/Testimonial";
 import Faq from "@/components/Faqs";
+import Features from "@/components/Features";
 
 const Home = () => {
 
@@ -17,6 +18,7 @@ const Home = () => {
         <Hero />
         {/* <Me /> */}
         <Projects />
+        <Features />
         <Services />
         <Testimonial />
         <Faq />
