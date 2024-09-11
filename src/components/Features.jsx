@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Features = () => {
@@ -22,9 +23,11 @@ const Features = () => {
           >
             Get Started
           </button>
+          <Link href={"/casestudies"}>
           <button className="flex justify-center w-max items-center py-2 md:py-3 px-3 md:px-6 rounded-full bg-white hover:opacity-80 text-[#a52db8] text-[12px] md:text-base font-[700]">
             Case Studies
           </button>
+          </Link>
         </div>
         <div className="flex justify-center items-center gap-5  flex-wrap">
           <div className="flex justify-center items-center gap-3">
