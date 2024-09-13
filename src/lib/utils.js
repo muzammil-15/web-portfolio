@@ -220,3 +220,201 @@ export const products = [
     thumbnail: '/p3.png',
   },
 ]
+
+
+// case Studies
+
+export const caseStudies = [
+  {
+    project: "Project Management Application",
+    thumb: "/pm.png",
+    overview: "A web-based project management tool designed to help teams organize tasks, track progress, and collaborate seamlessly.",
+    challenges: "Teams often struggle with managing multiple projects, keeping track of deadlines, and maintaining communication, especially with remote workers.",
+    solution: "The application provides a unified platform for managing tasks, assigning responsibilities, setting deadlines, and tracking project status, improving team collaboration and accountability.",
+    features: [
+      "Task assignment and management",
+      "Project timelines and Gantt charts",
+      "Real-time collaboration and chat",
+      "Document sharing",
+      "Integration with popular tools (Slack, Google Drive)"
+    ],
+    outcomes: "Improved project completion rates, better team coordination, and higher productivity. Project delays decreased by 30%.",
+    benefits: [
+      "Enhanced team collaboration",
+      "Better visibility into project progress",
+      "Centralized communication and document sharing"
+    ],
+    useCases: [
+      "Remote project teams",
+      "Freelance project management",
+      "Corporate IT teams managing software development"
+    ],
+    techStack: {
+      frontend: "React.js",
+      backend: "Node.js, Express.js",
+      database: "MongoDB",
+      authentication: "JWT",
+      deployment: ["Heroku", "Netlify"]
+    }
+  },
+  {
+    project: "E-commerce Platform for Local Retailers",
+    thumb: "/s.jpg",
+    overview: "An e-commerce application aimed at enabling local retailers to reach a wider audience by offering their products online.",
+    challenges: "Local retailers were losing business to larger online platforms, and many lacked the digital presence to compete effectively.",
+    solution: "A marketplace that allows local retailers to set up their own online stores, list their products, and manage their inventory easily. Customers can browse, buy, and track orders in real-time.",
+    features: [
+      "Store creation and customization",
+      "Product catalog management",
+      "Payment gateway integration",
+      "Real-time order tracking",
+      "Review and rating system"
+    ],
+    outcomes: "The platform increased local retailers’ sales by 50% within the first six months and significantly improved their online presence.",
+    benefits: [
+      "Easy digital store setup",
+      "Access to a broader customer base",
+      "Secure transactions and order tracking"
+    ],
+    useCases: [
+      "Local retail stores wanting to go digital",
+      "Small business owners with limited tech knowledge",
+      "Consumers seeking local products online"
+    ],
+    techStack: {
+      frontend: "React.js",
+      backend: "Node.js, Express.js",
+      database: "MongoDB",
+      paymentGateway: "Stripe",
+      deployment: ["AWS", "Vercel"]
+    }
+  },
+  {
+    project: "Online Learning Platform",
+    thumb: "/ol.jpg",
+    overview: "A platform for educational institutions and independent instructors to offer online courses with interactive video content and assessments.",
+    challenges: "Many educational institutions lacked the infrastructure for delivering courses online, especially post-pandemic.",
+    solution: "The platform supports course creation, student enrollment, and video streaming, along with assessments and grading. It integrates live sessions, forums, and file sharing for a complete learning experience.",
+    features: [
+      "Course creation tools",
+      "Video streaming and content management",
+      "Quizzes and assessments",
+      "Student progress tracking",
+      "Forum and chat features"
+    ],
+    outcomes: "Increased student engagement and course completion rates by 40%. Many institutions moved to hybrid teaching models as a result.",
+    benefits: [
+      "Scalable platform for any size of institution",
+      "Better student-teacher interaction online",
+      "Easy assessment and grading tools"
+    ],
+    useCases: [
+      "Universities offering distance learning",
+      "Independent tutors delivering courses online",
+      "Students looking for additional online learning resources"
+    ],
+    techStack: {
+      frontend: "React.js",
+      backend: "Node.js, Express.js",
+      database: "MongoDB",
+      videoStreaming: "AWS S3",
+      deployment: ["DigitalOcean", "Vercel"]
+    }
+  },
+  {
+    project: "Real Estate Listing Platform",
+    thumb: "/r.jpg",
+    overview: "A web platform that allows real estate agents and property owners to list properties for sale or rent, and lets users search and filter listings based on their needs.",
+    challenges: "Real estate buyers and renters often have difficulty navigating outdated or overly complicated listing platforms. Agents also needed better tools to manage inquiries and listings.",
+    solution: "The application provides a user-friendly interface for listing, searching, and filtering properties based on location, price, size, and other factors. Agents can manage inquiries and leads directly through the platform.",
+    features: [
+      "Property listing creation and management",
+      "Advanced search and filtering",
+      "Property details with images and maps",
+      "Agent contact forms",
+      "Saved listings and user profiles"
+    ],
+    outcomes: "Increased agent-client interactions by 20% and improved the quality of leads through better filtering and searching tools.",
+    benefits: [
+      "Easier property searching for users",
+      "Streamlined listing management for agents",
+      "Enhanced user experience with intuitive filters"
+    ],
+    useCases: [
+      "Real estate agents listing properties",
+      "Buyers/renters searching for properties",
+      "Agencies managing multiple properties"
+    ],
+    techStack: {
+      frontend: "React.js",
+      backend: "Node.js, Express.js",
+      database: "MongoDB",
+      mapsIntegration: "Google Maps API",
+      deployment: ["AWS"]
+    }
+  },
+  {
+    project: "Social Media Analytics Tool",
+    thumb: "/smm.jpg",
+    overview: "A tool designed to help marketers track and analyze their performance across various social media platforms in real-time.",
+    challenges: "Marketers often found it difficult to gather, visualize, and interpret data from different social media platforms to optimize their strategies.",
+    solution: "The tool aggregates data from platforms like Facebook, Instagram, and Twitter, displaying it in comprehensive dashboards with real-time analytics and reports.",
+    features: [
+      "Data aggregation from multiple platforms",
+      "Real-time analytics dashboards",
+      "Performance reports",
+      "Custom alerts for key metrics",
+      "Social listening features"
+    ],
+    outcomes: "Clients saw a 25% improvement in their social media ROI after using the tool to optimize their campaigns based on data-driven insights.",
+    benefits: [
+      "Simplified social media data analysis",
+      "Customizable performance reports",
+      "Real-time tracking for timely decisions"
+    ],
+    useCases: [
+      "Marketing agencies",
+      "Social media managers",
+      "Small businesses optimizing their online presence"
+    ],
+    techStack: {
+      frontend: "React.js",
+      backend: "Node.js, Express.js",
+      database: "MongoDB",
+      APIs: ["Facebook Graph API", "Twitter API"],
+      deployment: ["AWS", "Vercel"]
+    }
+  },
+  {
+    project: "Online Appointment Scheduling System",
+    thumb: "/a.jpg",
+    overview: "A web-based system that allows businesses, especially healthcare providers, to manage appointments, reduce no-shows, and streamline their scheduling process.",
+    challenges: "Healthcare providers were struggling with missed appointments, inefficient scheduling, and long waiting times.",
+    solution: "The system enables patients to book appointments online, receive reminders, and reschedule if necessary. It also allows businesses to optimize their calendars and reduce no-shows through automated reminders.",
+    features: [
+      "Online booking system",
+      "Appointment reminders via email/SMS",
+      "Calendar management and scheduling",
+      "Patient/Client profiles",
+      "Appointment rescheduling"
+    ],
+    outcomes: "Reduced appointment no-shows by 30% and optimized business calendars, leading to improved service efficiency.",
+    benefits: [
+      "Convenient booking for patients",
+      "Optimized scheduling for businesses",
+      "Reduced no-shows with reminders"
+    ],
+    useCases: [
+      "Healthcare providers managing appointments",
+      "Salons and spas offering online booking",
+      "Consultants scheduling client meetings"
+    ],
+    techStack: {
+      frontend: "React.js",
+      backend: "Node.js, Express.js",
+      database: "MongoDB",
+      messaging: "Twilio API",
+      deployment: ["AWS", "Netlify"]
+    }
+  }
+];

@@ -8,6 +8,13 @@ const nextConfig = {
   
       return config;
     },
+    images: {
+      remotePatterns: [
+        {
+          hostname: 'via.placeholder.com',
+        },
+      ],
+    },
   };
   
   module.exports = nextConfig;
