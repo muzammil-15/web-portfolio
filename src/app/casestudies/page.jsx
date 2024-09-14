@@ -1,9 +1,14 @@
 import Image from "next/image";
 import React from "react";
 
+
 import { caseStudies } from "@/lib/utils";
 import Link from "next/link";
 
+export const metadata  = {
+  title: "Case Studies || Full Stack Applications",
+  discription: " Some Popular CaseStudies related to Full Stack Web development"
+}
 const CaseStudies = () => {
   return (
     <>

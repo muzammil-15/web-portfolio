@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 const inter = Syne({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "MUZAMMIL HUSSAIN",
+  title: "Muzammil Hussain | Web Development",
   description: "Muzammil hussain portfolio website",
 };
 

@@ -4,6 +4,11 @@ import React from "react";
 import { usePathname } from "next/navigation";
 import { caseStudies } from "@/lib/utils";
 
+// export const  metadata  = {
+//   title: "Case Studies || Full Stack Applications",
+//   discription: " Some Popular CaseStudies related to Full Stack Web development"
+// }
+
 const CaseStudy = () => {
   const pathname = usePathname();
   const formattedPath = pathname
